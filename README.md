@@ -10,34 +10,32 @@
 ![パーツ一覧](img/sample.jpg)  
 ||部品名|数| |
 |-|-|-|-|
-|1|メインボード（黒・大）|2|少し短い方が左です。|
-|2|ミドルプレート（透明・中）|2||
-|3|ボトムプレート（黒・中）|2||
-|4|ボトムプレート（透明・小）|2||
-|5|ネジ（短）|36|3mm|
-|6|ネジ（長）|24|5mm|
-|7|スペーサー（短）|18|3mm|
-|8|スペーサー（長）|12|8mm|
-|9|ダイオード|50||
-|10|リセットスイッチ|2||
-|11|TRRSジャック|2||
-|12|ゴム足|12||
+|1|メインボード（黒・大）|1||
+|2|ミドルプレート（透明・中）|1||
+|3|ボトムプレート（黒・中）|1||
+|4|ボトムプレート（透明・小）|1||
+|5|ネジ（短）|12|3mm|
+|6|ネジ（長）|8|5mm|
+|7|スペーサー（短）|6|3mm|
+|8|スペーサー（長）|4|8mm|
+|9|ダイオード|17||
+|10|リセットスイッチ|1||
+|12|ゴム足|4||
 
 ## キット以外に必要なもの
 |部品名|数|| |
 |-|-|-|-|
-|Pro Micro コンスルー付き|2||[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/promicro-spring-pinheader)|
-|キースイッチ（Kailh Choc V2）|50|[選び方](howtochosekeyswitches.md)|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-switches/products/kailh-choc-v2)|
-|キーキャップ（CherryMX互換）|50|[選び方](howtochosekeycaps.md)||
-|TRRSケーブル|1|TRS（ステレオミニ）ケーブルでもいいです。||
+|Pro Micro コンスルー付き|1||[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/promicro-spring-pinheader)|
+|キースイッチ（Kailh Choc V2）|17|[選び方](howtochosekeyswitches.md)|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-switches/products/kailh-choc-v2)|
+|キーキャップ（CherryMX互換・1U）|17|||
 |Micro USB ケーブル|1|データ通信対応でUSB2.0 Micro-Bのもの。||
 
 ## オプション
 |部品名|数|||
 |-|-|-|-|
-|表面実装タイプのダイオード|50||[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/a0800di-02-100)|
-|SK6812MINI-E|50|[取り付け方](led.md)|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/sk6812mini-e-10)|
-|WS2812B|9|無くてもバックライトだけ光ります。|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/a0800ws-01-10)|
+|表面実装タイプのダイオード|17||[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/a0800di-02-100)|
+|SK6812MINI-E|17|[取り付け方](led.md)|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/sk6812mini-e-10)|
+|WS2812B|3|無くてもバックライトだけ光ります。|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/a0800ws-01-10)|
 |両面テープ||液タブに固定する場合。||
  
 ## 必要な工具
@@ -79,9 +77,8 @@
 表面実装型を使うと表からは穴しか見えなくなります。  
 ![実装方法による差](img/diode3.jpeg)  
 
-TRRSジャックを裏から差し込み表ではんだ付けします。  
-終わったらリセットスイッチを裏から差し込み表ではんだ付けします。  
-![左：TRRSジャック 右:リセットスイッチ](img/trrset.jpg)  
+リセットスイッチを裏から差し込み表ではんだ付けします。  
+![](img/trrset.jpg)  
 
 キースイッチを表から差し込み裏ではんだ付けします。  
 ![穴が小さいので押し込む必要があります。](img/keyswitch.jpeg)  
@@ -106,7 +103,7 @@ Chrome, Edgeを使っているならPro Micro Web Updaterだとブラウザだ�
 
 使わない場合、QMK Toolboxをインストールしてテスト用のファームウェアをダウンロードして下さい。  
 - QMK Toolbox https://github.com/qmk/qmk_toolbox/releases 
-- テスト用ファームウェア [popntop_test.hex](https://github.com/Taro-Hayashi/Pop-n-Top/releases/download/untagged-6f31185aea07d10a6589/popntop_test.hex)
+- テスト用ファームウェア [armors_test.hex](https://github.com/Taro-Hayashi/Pop-n-Top/releases/download/untagged-6f31185aea07d10a6589/popntop_test.hex)
 
 Openを押してダウンロードしたファイルを指定してAuto-Flashにチェックを入れます。  
 MCUがatmega32u4になっていることも確認します。  
@@ -118,8 +115,6 @@ MCUがatmega32u4になっていることも確認します。
 （エラーが出る場合Auto-Flashのチェックを外し、先にリセットスイッチを押してQMK ToolboxのFlashのボタンを押してみてください。）  
 
 ファームウェアを更新する時もこの手順で行います。  
-
-<a id="anchor1"></a>
 
 USBで接続しないと書き込めないので分割キーボードでは左手用と右手用に同じ手順を繰り返します。
 右手用にも同じファームウェアを書き込んでください。  
