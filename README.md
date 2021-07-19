@@ -23,12 +23,12 @@
 |12|ゴム足|4||
 
 ## キット以外に必要なもの
-|部品名|数|| |
-|-|-|-|-|
-|Pro Micro コンスルー付き|1||[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/promicro-spring-pinheader)|
-|キースイッチ（Kailh Choc V2）|17|[選び方](howtochosekeyswitches.md)|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-switches/products/kailh-choc-v2)|
-|キーキャップ（CherryMX互換・1U）|17|||
-|Micro USB ケーブル|1|データ通信対応でUSB2.0 Micro-Bのもの。||
+|部品名|数||
+|-|-|-|
+|Pro Micro コンスルー付き|1|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/promicro-spring-pinheader)|
+|キースイッチ（Kailh Choc V2）|17|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-switches/products/kailh-choc-v2)|
+|キーキャップ（CherryMX互換・1U）|17||
+|Micro USB ケーブル|1|データ通信対応でUSB2.0 Micro-Bのもの。|
 
 ## オプション
 |部品名|数|||
