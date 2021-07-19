@@ -19,7 +19,7 @@ LEDは直列に配線されています。
 
 はんだ付けするだけでLEDが使えるようになります。  
 ESC長押しでRGB操作用のレイヤーになります。  
-![](img/layoutrgb.png)
+![](img/layoutrgb.png)  
 [Keyboard Layout Editor で見る](http://www.keyboard-layout-editor.com/##@_name=Layout%20-%20Armors%20KEYPAD;&@_x:0.5&a:7;&=F1&=F2&=F3&=F4&=F5&_x:1.5;&=F1&=F2&=F3&=F4&=F5&_x:1.5&c=#e0cb58&fa@:1;;&=前のパターン&_c=#cccccc;&=&=&_c=#e0cb58;&=次のパターン&_c=#decf7e;&=;&@_c=#cccccc&a:5&f:3;&=!%0A%0A%0A%0A%0A%0A1&_f:3;&=/@%0A%0A%0A%0A%0A%0A2&_f:3;&=#%0A%0A%0A%0A%0A%0A3&_f:3;&=$%0A%0A%0A%0A%0A%0A4&_f:3;&=%25%0A%0A%0A%0A%0A%0A5&_fa@:0&:1&:0&:0&:0&:0&:1;;&=~%0A長押しLOWER%0A%0A%0A%0A%0A%60&_x:0.5&c=#8792d6&a:7;&=F6&=F7&=F8&=F9&=F10&_c=#98a3d4;&=&_x:0.5&c=#cccccc;&=&_c=#e0cb58;&=色相+&=彩度+&=明度+&_fa@:1;;&=スピード+&_c=#cccccc;&=;&@_a:5&f:3;&=%5E%0A%0A%0A%0A%0A%0A6&_f:3;&=/&%0A%0A%0A%0A%0A%0A7&_f:3;&=*%0A%0A%0A%0A%0A%0A8&_f:3;&=(%0A%0A%0A%0A%0A%0A9&_f:3;&=)%0A%0A%0A%0A%0A%0A0&_c=#aaaaaa&a:7&f:3;&=shift&_x:0.5&c=#8792d6&f:3;&=F11&_f:3;&=F12&_c=#cccccc;&=&=&=&_c=#aaaaaa;&=&_x:0.5&c=#e0cb58&f:3;&=ON//OFF&_f:3;&=色相-&_f:3;&=彩度-&_f:3;&=明度-&_f:3;&=スピード-&_c=#aaaaaa;&=)  
   
   ブラウザの機能で戻ってください。
