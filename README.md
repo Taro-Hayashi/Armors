@@ -23,11 +23,11 @@
 |12|ゴム足|4||
 
 ## キット以外に必要なもの
-|部品名|数||
-|-|-|-|
-|Pro Micro コンスルー付き|1|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/promicro-spring-pinheader)|
-|キースイッチ（Kailh Choc V2）|17|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-switches/products/kailh-choc-v2)|
-|キーキャップ（CherryMX互換・1U）|17||
+|部品名|数|||
+|-|-|-|-|
+|Pro Micro コンスルー付き|1||[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/promicro-spring-pinheader)|
+|キースイッチ|17|Kailh Choc V2|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-switches/products/kailh-choc-v2)|
+|キーキャップ|17|CherryMX互換・1U||
 |Micro USB ケーブル|1|データ通信対応でUSB2.0 Micro-Bのもの。|
 
 ## オプション
@@ -100,7 +100,7 @@
 
 ## 動作テスト
 Pro Microに動作ソフト（ファームウェア）を書き込んで動作確認をしましょう。  
-左手用とPCをUSBケーブルでつないでください。   
+キットとPCをUSBケーブルでつないでください。   
 
 Chrome, Edgeを使っているならPro Micro Web Updaterだとブラウザだけでファームウェアを書き込めます。  
 [Pro Micro Web Updaterを使う場合](promicrowebupdater.md)  
@@ -120,18 +120,13 @@ MCUがatmega32u4になっていることも確認します。
 
 ファームウェアを更新する時もこの手順で行います。  
 
-USBで接続しないと書き込めないので分割キーボードでは左手用と右手用に同じ手順を繰り返します。
-右手用にも同じファームウェアを書き込んでください。  
-
-書き込めたら一度USBケーブルを外し、TRRSケーブルで左右を繋げます。  
-（TRRSケーブルを抜き差しするときはPCとは接続しない方が安全だそうです。）  
-左手用とPCをUSBケーブルで接続してタイプすると1-50の数字が打てるはずです。  
+タイプすると1-17の数字が打てるはずです。  
 反応しないキーが一箇所の場合スイッチ、同じ行で複数個の場合ダイオードのはんだが原因だと思います。   
 
 お疲れ様でした。問題がなければはんだ付けは終了です。
 
 ## 組み立て方（後半）
-USBケーブル、TRRSケーブルを抜いてプレートを組付けます。  
+USBケーブルを抜いてプレートを組付けます。  
 プレートには向きがあります。アクリルからは保護フィルムを剥がしてください。割れやすいので気をつけましょう。  
 
 ボトムプレート（黒・中）にスペーサー（短）をネジ（短）で取り付けます。  
@@ -143,20 +138,18 @@ USBケーブル、TRRSケーブルを抜いてプレートを組付けます。
 
 ボトムプレート（透明・小）にスペーサー（長）をネジ（長）で取り付けます。  
 Pro Microを覆うようにネジ（長）で止めます。  
-![](img/bottom4.jpeg)   
+![](img/bottom3.jpeg)   
 
 キーキャップを取り付けたら本番用のファームウェアに更新しましょう。
-- [popntop_via.hex](https://github.com/Taro-Hayashi/Pop-n-Top/releases/download/untagged-6f31185aea07d10a6589/popntop_via.hex)
+- [armors_via.hex](https://github.com/Taro-Hayashi/Pop-n-Top/releases/download/untagged-6f31185aea07d10a6589/popntop_via.hex)
 
-ゴム足を貼ってTRRSケーブルで左右を繋いだら完成です。
+ゴム足を貼ったら完成です。
 ![](img/done.jpeg)  
-USBケーブルは左手用に接続してください。  
-
 
 ## キーマップの確認、変更方法
 このキットはレイヤー機能を使っています。
 ![](img/layout.jpg)
-[Keyboard Layout Editor で見る](http://www.keyboard-layout-editor.com/##@_backcolor=#ffffff&name=Layout%20-%20Pop'n%20Top%20KEYBOARD&author=T.Hayashi&switchMount=cherry&switchBrand=kailh&switchType=PG151101D05//D43&pcb:true;&@_c=#777777&a:7;&=&_c=#aaaaaa&w:1.5;&=&_c=#cf7e7e;&=!&=/@&=#&=$&=%25&_st=PG151101D05//D43;&=~&_x:3&c=#cccccc;&=&_c=#cf7e7e;&=F1&=F2&=F3&=F4&=F5&=F6&_c=#cccccc;&=&_c=#cf7e7e&w:2;&=delete;&@_x:0.75&c=#aaaaaa&w:1.75;&=&_c=#cf7e7e;&=%5E&=/&&=*&_n:true;&=(&=)&_c=#aaaaaa&w:1.5;&=&_x:2&w:1.5;&=&_c=#cf7e7e;&=F7&_n:true;&=F8&=F9&=F10&=F11&=F12&_c=#d99393&w:2;&=↑;&@_x:0.5&c=#aaaaaa&w:2;&=&_c=#cccccc;&=&=&=&=&=&_c=#cf7e7e;&=&_c=#aaaaaa;&=&_x:1;&=&=&_c=#cccccc;&=&=&=&=&=&_c=#d99393;&=←&_w:1.75;&=↓&_fa@:2;;&=→;&@_y:-0.25&x:8.75&c=#cccccc&t=#c91818&a:5&f:3&w:2.5&d:true;&=↑%0AUPPER%20LAYER;&@_y:-0.25&c=#777777&t=#000000%0A#dbbc1f&f2:2;&=esc%0A長押しRGB&_c=#aaaaaa&t=#000000&a:7&w:1.5;&=tab&_c=#cccccc;&=Q&=W&=E&=R&=T&_a:5&f:3;&=/_%0A%0A%0A%0A%0A%0A-&_x:3&f:3;&=+%0A%0A%0A%0A%0A%0A/=&_a:7;&=Y&=U&=I&=O&=P&_a:5&f:3;&=%7B%0A%0A%0A%0A%0A%0A%5B&_f:3;&=%7D%0A%0A%0A%0A%0A%0A%5D&_c=#aaaaaa&a:7&w:2;&=backspace;&@_x:0.75&w:1.75;&=control&_c=#cccccc;&=A&=S&=D&_n:true;&=F&=G&_c=#aaaaaa&w:1.5;&=space&_x:2&w:1.5;&=space&_c=#cccccc;&=H&_n:true;&=J&=K&=L&_a:5&f:3;&=/:%0A%0A%0A%0A%0A%0A/;&_f:3;&=%22%0A%0A%0A%0A%0A%0A'&_c=#aaaaaa&a:7&w:2;&=enter;&@_x:0.5&w:2;&=shift&_c=#cccccc;&=Z&=X&=C&=V&=B&_c=#aaaaaa&t=#c91818%0A#000000&a:5&fa@:2;;&=長押しUPPER%0A英数&_t=#000000&fa@:2&:1;;&=space%0A長押しWin//cmd&_x:1;&=space%0A長押しWIN//CMD&_t=#000000%0A#152bab&fa@:2&:2;;&=かな%0A長押しLOWER&_c=#cccccc&t=#000000&a:7;&=N&=M&_a:5&f:3;&=%3C%0A%0A%0A%0A%0A%0A,&_f:3;&=%3E%0A%0A%0A%0A%0A%0A.&_f:3;&=?%0A%0A%0A%0A%0A%0A//&_f:3;&=%7C%0A%0A%0A%0A%0A%0A%5C&_c=#aaaaaa&a:7&f:3&w:1.75;&=shift&_f:3;&=alt;&@_x:8.75&c=#cccccc&t=#152bab#1d2c8c%0A#152bab&a:5&f:3&w:2.5&d:true;&=LOWER%E3%80%80LAYER%0A↓;&@_y:-0.5&c=#777777&t=#000000&a:7;&=&_c=#aaaaaa&w:1.5;&=&_c=#8792d6&a:5&f:3;&=!%0A%0A%0A%0A%0A%0A1&_f:3;&=/@%0A%0A%0A%0A%0A%0A2&_f:3;&=#%0A%0A%0A%0A%0A%0A3&_f:3;&=$%0A%0A%0A%0A%0A%0A4&_f:3;&=%25%0A%0A%0A%0A%0A%0A5&_f:3;&=~%0A%0A%0A%0A%0A%0A%60&_x:3&c=#cccccc&a:7;&=&=&=&=&=&=&_c=#8792d6&f:3;&=(&_f:3;&=)&_c=#aaaaaa&w:2;&=;&@_x:0.75&w:1.75;&=&_c=#8792d6&a:5&f:3;&=%5E%0A%0A%0A%0A%0A%0A6&_f:3;&=/&%0A%0A%0A%0A%0A%0A7&_f:3;&=*%0A%0A%0A%0A%0A%0A8&_f:3&n:true;&=(%0A%0A%0A%0A%0A%0A9&_f:3;&=)%0A%0A%0A%0A%0A%0A0&_c=#aaaaaa&a:7&w:1.5;&=&_x:2&w:1.5;&=&_c=#8792d6&f:3;&=←&_f:3&n:true;&=↓&_f:3;&=↑&_f:3;&=→&_c=#cccccc;&=&=&_c=#aaaaaa&w:2;&=;&@_x:0.5&w:2;&=&_c=#cccccc;&=&=&=&=&=&_c=#aaaaaa;&=&=&_x:1;&=&_c=#8792d6;&=&_c=#cccccc;&=&=&=&=&=&=&_c=#aaaaaa&f:3&w:1.75;&=shift&=;&@_y:0.75&c=#e0cb58;&=&_c=#aaaaaa&w:1.5;&=&_c=#e0cb58&f:3;&=色相+&_f:3;&=彩度+&_f:3;&=明度+&_fa@:1;;&=スピード+&_c=#cccccc;&=&=&_x:0.25&t=#a18806&a:5&f:3&w:2.5&d:true;&=RGB%20LAYER&_x:0.25&t=#000000&a:7;&=&=&=&=&=&=&=&=&_c=#aaaaaa&w:2;&=;&@_x:1&c=#e0cb58&fa@:2;&w:1.5;&=前のパターン&_c=#cccccc;&=&=&=&_n:true;&=&=&_c=#e0cb58&w:2;&=次のパターン&_x:1.5&c=#aaaaaa&w:1.5;&=&_c=#cccccc;&=&_n:true;&=&=&=&=&=&_c=#aaaaaa&w:2;&=;&@_x:0.5&w:2;&=&_c=#e0cb58&f:3;&=色相-&_f:3;&=彩度-&_f:3;&=明度-&_fa@:1;;&=スピード%20-&_c=#cccccc;&=&_c=#aaaaaa;&=&_c=#e0cb58&fa@:2;;&=ON//OFF&_x:1&c=#aaaaaa;&=&_c=#cccccc;&=&=&=&=&=&=&=&_c=#aaaaaa&w:1.75;&=&=)  
+[Keyboard Layout Editor で見る](http://www.keyboard-layout-editor.com/##@_name=Layout%20-%20Armors%20KEYPAD;&@_x:0.5&a:7;&=F1&=F2&=F3&=F4&=F5&_x:1.5;&=F1&=F2&=F3&=F4&=F5&_x:1.5&c=#e0cb58&fa@:1;;&=前のパターン&_c=#cccccc;&=&=&_c=#e0cb58;&=次のパターン&_c=#decf7e;&=;&@_c=#cccccc&a:5&f:3;&=!%0A%0A%0A%0A%0A%0A1&_f:3;&=/@%0A%0A%0A%0A%0A%0A2&_f:3;&=#%0A%0A%0A%0A%0A%0A3&_f:3;&=$%0A%0A%0A%0A%0A%0A4&_f:3;&=%25%0A%0A%0A%0A%0A%0A5&_fa@:0&:1&:0&:0&:0&:0&:1;;&=~%0A長押しLOWER%0A%0A%0A%0A%0A%60&_x:0.5&c=#8792d6&a:7;&=F6&=F7&=F8&=F9&=F10&_c=#98a3d4;&=&_x:0.5&c=#cccccc;&=&_c=#e0cb58;&=色相+&=彩度+&=明度+&_fa@:1;;&=スピード+&_c=#cccccc;&=;&@_a:5&f:3;&=%5E%0A%0A%0A%0A%0A%0A6&_f:3;&=/&%0A%0A%0A%0A%0A%0A7&_f:3;&=*%0A%0A%0A%0A%0A%0A8&_f:3;&=(%0A%0A%0A%0A%0A%0A9&_f:3;&=)%0A%0A%0A%0A%0A%0A0&_c=#aaaaaa&a:7&f:3;&=shift&_x:0.5&c=#8792d6&f:3;&=F11&_f:3;&=F12&_c=#cccccc;&=&=&=&_c=#aaaaaa;&=&_x:0.5&c=#e0cb58&f:3;&=ON//OFF&_f:3;&=色相-&_f:3;&=彩度-&_f:3;&=明度-&_f:3;&=スピード-&_c=#aaaaaa;&=)  
 
 使わないキーを削除したり使用頻度の高いキーを押しやすい位置に変更してみましょう。
 
@@ -165,7 +158,7 @@ Chrome, EdgeがインストールされていればRemapを使うとブラウザ
 
 そうでない場合はVIAをインストールして、下記JSONファイルをダウンロードしてください。
 - VIA [https://github.com/the-via/releases/releases](https://github.com/the-via/releases/releases)
-- [popntop.json](https://github.com/Taro-Hayashi/Pop-n-Top/releases/download/untagged-6f31185aea07d10a6589/popntop.json)
+- [armors.json](https://github.com/Taro-Hayashi/Pop-n-Top/releases/download/untagged-6f31185aea07d10a6589/popntop.json)
 
 起動したらSETTINGタブに移りShow Design tabをオンにします。  
 ![](img/via1.png)  
@@ -192,7 +185,6 @@ shotgun_p.pdf
 ボトムプレートのデザインデータ kicadプロジェクトファイル  
 アクリルプレートのデザインデータ kicadプロジェクトファイル  
 発注先のルールに沿ってデータを修正してください。  
-マット素材のアクリルはLEDの光が拡散し柔らかい印象になります。  
   
 ご不明な点があればBOOTHのメッセージかtwitterのリプライでいつでも聞いてください。  
   
