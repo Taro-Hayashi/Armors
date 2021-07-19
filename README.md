@@ -23,12 +23,12 @@
 |12|ゴム足|4||
 
 ## キット以外に必要なもの
-|部品名|数|| |
-|-|-|-|-|
-|Pro Micro コンスルー付き|1||[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/promicro-spring-pinheader)|
-|キースイッチ（Kailh Choc V2）|17|[選び方](howtochosekeyswitches.md)|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-switches/products/kailh-choc-v2)|
-|キーキャップ（CherryMX互換・1U）|17|||
-|Micro USB ケーブル|1|データ通信対応でUSB2.0 Micro-Bのもの。||
+|部品名|数||
+|-|-|-|
+|Pro Micro コンスルー付き|1|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/promicro-spring-pinheader)|
+|キースイッチ（Kailh Choc V2）|17|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-switches/products/kailh-choc-v2)|
+|キーキャップ（CherryMX互換・1U）|17||
+|Micro USB ケーブル|1|データ通信対応でUSB2.0 Micro-Bのもの。|
 
 ## オプション
 |部品名|数|||
@@ -78,19 +78,23 @@
 ![実装方法による差](img/diode3.jpeg)  
 
 リセットスイッチを裏から差し込み表ではんだ付けします。  
-![](img/trrset.jpg)  
+![](img/reset.jpeg)  
 
 キースイッチを表から差し込み裏ではんだ付けします。  
 ![穴が小さいので押し込む必要があります。](img/keyswitch.jpeg)  
 
 メインボードの裏にコンスルーを挿します。  
 コンスルーの窓が高くて両方とも同じ向きになるように設置します。  
-![挿し方に注意](img/conn.jpeg)   
 挿すだけではんだ付けはしません。  
+![](img/conn.jpeg)   
+※画像は違うキットなので場所が違いますが基盤、パーツの裏表は同じです。  
+
 
 コンスルーにPro Microを挿します。TX0, RAW, USBの位置をシルク印刷と合わせましょう。  
 そして、Pro Micro側のコンスルーの足を半田付けします。  
 ![四隅を先に固定すると安定します。](img/promicro.jpeg)   
+※画像は違うキットなので場所が違いますが基盤、パーツの裏表は同じです。  
+  
 これでPro Microを抜き差しできるようになりました。  
 両手分作り終えたら次に進んでください。  
 
