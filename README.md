@@ -7,7 +7,7 @@
 - [おまけ](#おまけ)
 
 ## キット内容
-![パーツ一覧](img/sample.jpg)  
+![パーツ一覧](img/parts.jpg)  
 ||部品名|数| |
 |-|-|-|-|
 |1|メインボード（黒・大）|1||
@@ -20,7 +20,7 @@
 |8|スペーサー（長）|4|8mm|
 |9|ダイオード|17||
 |10|リセットスイッチ|1||
-|12|ゴム足|4||
+|11|ゴム足|4||
 
 ## キット以外に必要なもの
 |部品名|数|||
@@ -46,6 +46,7 @@
 |鉛入りはんだ||
 |細いドライバー|+の1番ドライバー。|
 |ニッパー等ダイオードの足を切れるもの|金属用でない場合刃こぼれします。|
+|Microsoft Edge、もしくはGoogle Chrome||
 
 ## あると便利な工具
 |工具名||
@@ -103,23 +104,20 @@
 Pro Microに動作ソフト（ファームウェア）を書き込んで動作確認をしましょう。  
 キットとPCをUSBケーブルでつないでください。   
 
-Chrome, Edgeを使っているならPro Micro Web Updaterだとブラウザだけでファームウェアを書き込めます。  
-[Pro Micro Web Updaterを使う場合](promicrowebupdater.md)  
+ファームウェアをダウンロードしてPro Micro Web Updaterにアクセスしてください。
+- テスト用ファームウェア [popntop_test.hex](https://github.com/Taro-Hayashi/Pop-n-Top/releases/download/untagged-6f31185aea07d10a6589/popntop_test.hex)
+- Pro Micro Web Updater https://sekigon-gonnoc.github.io/promicro-web-updater/index.html
 
-使わない場合、QMK Toolboxをインストールしてテスト用のファームウェアをダウンロードして下さい。  
-- QMK Toolbox https://github.com/qmk/qmk_toolbox/releases 
-- テスト用ファームウェア [armors_test.hex](https://github.com/Taro-Hayashi/Pop-n-Top/releases/download/untagged-6f31185aea07d10a6589/popntop_test.hex)
+ファイルの選択ボタンを押してダウンロードしたファームウェアを指定したら、flashボタンを押しましょう。  
+![](img/promicrowebupdater1.jpg)  
 
-Openを押してダウンロードしたファイルを指定してAuto-Flashにチェックを入れます。  
-MCUがatmega32u4になっていることも確認します。  
-![赤の部分に注意](img/qmktoolbox1.png)
-　　
-キットのリセットスイッチを押すとPro Microが赤く光り自動でファームウェアが書き込まれます。  
-"Thank you"のメッセージが出たら書き込み完了です。
-![](img/qmktoolbox2.png)  
-（エラーが出る場合Auto-Flashのチェックを外し、先にリセットスイッチを押してQMK ToolboxのFlashのボタンを押してみてください。）  
+ブラウザのアドレスバーからメッセージが出てきたら、キットのリセットスイッチを押します。      
+すると選択欄にArduino Microが出てきてクリックできるようになります。  
+![](img/promicrowebupdater2.jpg)  
 
-ファームウェアを更新する時もこの手順で行います。  
+選択して接続を押すと書き込みが終わります。  
+![](img/promicrowebupdater3.jpg)  
+ファームウェアを更新する時もこの手順で行います。    
 
 タイプすると1-17の数字が打てるはずです。  
 反応しないキーが一箇所の場合スイッチ、同じ行で複数個の場合ダイオードのはんだが原因だと思います。   
@@ -152,23 +150,9 @@ Pro Microを覆うようにネジ（長）で止めます。
 ![](img/layout.png)
 [Keyboard Layout Editor で見る](http://www.keyboard-layout-editor.com/##@_name=Layout%20-%20Armors%20KEYPAD;&@_x:0.5&a:7;&=F1&=F2&=F3&=F4&=F5&_x:1.5;&=F1&=F2&=F3&=F4&=F5&_x:1.5&c=#e0cb58&fa@:1;;&=前のパターン&_c=#cccccc;&=&=&_c=#e0cb58;&=次のパターン&_c=#decf7e;&=;&@_c=#cccccc&a:5&f:3;&=!%0A%0A%0A%0A%0A%0A1&_f:3;&=/@%0A%0A%0A%0A%0A%0A2&_f:3;&=#%0A%0A%0A%0A%0A%0A3&_f:3;&=$%0A%0A%0A%0A%0A%0A4&_f:3;&=%25%0A%0A%0A%0A%0A%0A5&_fa@:0&:1&:0&:0&:0&:0&:1;;&=~%0A長押しLOWER%0A%0A%0A%0A%0A%60&_x:0.5&c=#8792d6&a:7;&=F6&=F7&=F8&=F9&=F10&_c=#98a3d4;&=&_x:0.5&c=#cccccc;&=&_c=#e0cb58;&=色相+&=彩度+&=明度+&_fa@:1;;&=スピード+&_c=#cccccc;&=;&@_a:5&f:3;&=%5E%0A%0A%0A%0A%0A%0A6&_f:3;&=/&%0A%0A%0A%0A%0A%0A7&_f:3;&=*%0A%0A%0A%0A%0A%0A8&_f:3;&=(%0A%0A%0A%0A%0A%0A9&_f:3;&=)%0A%0A%0A%0A%0A%0A0&_c=#aaaaaa&a:7&f:3;&=shift&_x:0.5&c=#8792d6&f:3;&=F11&_f:3;&=F12&_c=#cccccc;&=&=&=&_c=#aaaaaa;&=&_x:0.5&c=#e0cb58&f:3;&=ON//OFF&_f:3;&=色相-&_f:3;&=彩度-&_f:3;&=明度-&_f:3;&=スピード-&_c=#aaaaaa;&=)  
 
-使わないキーを削除したり使用頻度の高いキーを押しやすい位置に変更してみましょう。
-
-Chrome, EdgeがインストールされていればRemapを使うとブラウザだけでキーマップを変更できます。  
-[Remapを使う場合](remap.md)  
-
-そうでない場合はVIAをインストールして、下記JSONファイルをダウンロードしてください。
-- VIA [https://github.com/the-via/releases/releases](https://github.com/the-via/releases/releases)
-- [armors.json](https://github.com/Taro-Hayashi/Pop-n-Top/releases/download/untagged-6f31185aea07d10a6589/popntop.json)
-
-起動したらSETTINGタブに移りShow Design tabをオンにします。  
-![](img/via1.png)  
-
-DESIGNタブが出てくるのでクリックして、LOADボタンを押してダウンロードしたJSONファイルを指定しましょう。  
-CONFIGUREタブに行くとキーマップを設定できるようになっています。  
-
-![](img/via2.png)  
-キーボードのシルエットの変更したいキーをクリックしてから打ちたい文字をクリックするとキーマップがかわり、既にキーボードには反映されています。  
+使わないキーを削除したり使用頻度の高いキーを押しやすい位置に変更してみましょう。  
+  
+ChromeかEdgeでRemapにアクセスしてください。
 
 ## 液晶タブレットに乗せる場合
 1番上の行を引っ掛ける事で液タブに乗せる事ができます。
