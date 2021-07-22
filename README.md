@@ -154,7 +154,7 @@ Pro Microを覆うようにネジ（長）で止めます。
 使わないキーを削除したり使用頻度の高いキーを押しやすい位置に変更してみましょう。  
   
 JSONファイルをダウンロードしたらChromeかEdgeでRemapにアクセスしてください。  
-- [popntop.json]()
+- [armors.json]()
 - [Remap](https://remap-keys.app/)
   
 ![](img/remap1.png)  
