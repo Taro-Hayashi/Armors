@@ -154,7 +154,7 @@ Pro Microを覆うようにネジ（長）で止めます。
 使わないキーを削除したり使用頻度の高いキーを押しやすい位置に変更してみましょう。  
   
 JSONファイルをダウンロードしたらChromeかEdgeでRemapにアクセスしてください。  
-- [popntop.json]()
+- [armors.json]()
 - [Remap](https://remap-keys.app/)
   
 ![](img/remap1.png)  
@@ -175,13 +175,18 @@ JSONファイルをダウンロードしたらChromeかEdgeでRemapにアクセ�
 
 ## おまけ
 寸法とダンボールで作れるペーパークラフトを用意したのでサイズ感の確認にご利用下さい。
-定規があればプリントしなくても作れます。
-![](img/sample.jpg)　　
-shotgun_p.pdf  
-ネットプリント  
+![](img/size.png)　　
+![](img/danbo.jpg)　　
+- [realsizeA4.pdf]()  
+- ネットプリント番号  日まで　　
+
+A4サイズです。定規があればプリントしなくても作れます。
+
+ファームウェアのフォルダ https://github.com/Taro-Hayashi/qmk_firmware/tree/master/keyboards/armors  
   
-プレートのデザインデータ [shotgun_plates.zip]()  
+ミドル、ボトムプレートのデザインデータ [popntop_plates.zip]()  
 発注先のルールに沿ってデータを修正してください。  
+  
   
 ご不明な点があればBOOTHのメッセージかtwitterのリプライでいつでも聞いてください。  
   
