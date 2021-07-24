@@ -97,15 +97,13 @@
 そして、Pro Micro側のコンスルーの足を半田付けします。  
 ![四隅を先に固定すると安定します。](img/promicro.jpeg)   
 ※画像は違うキットなので場所が違いますが基盤、パーツの裏表は同じです。  
-  
-これでPro Microを抜き差しできるようになりました。  
 
 ## 動作テスト
 Pro Microに動作ソフト（ファームウェア）を書き込んで動作確認をしましょう。  
 キットとPCをUSBケーブルでつないでください。   
 
 ファームウェアをダウンロードしてPro Micro Web Updaterにアクセスしてください。
-- テスト用ファームウェア [popntop_test.hex](https://github.com/Taro-Hayashi/Pop-n-Top/releases/download/untagged-6f31185aea07d10a6589/popntop_test.hex)
+- テスト用ファームウェア [armors_test.hex](https://github.com/Taro-Hayashi/Pop-n-Top/releases/download/untagged-6f31185aea07d10a6589/popntop_test.hex)
 - Pro Micro Web Updater https://sekigon-gonnoc.github.io/promicro-web-updater/index.html
 
 ファイルの選択ボタンを押してダウンロードしたファームウェアを指定したら、flashボタンを押しましょう。  
@@ -174,7 +172,7 @@ JSONファイルをダウンロードしたらChromeかEdgeでRemapにアクセ�
 跡が残るといけないので画面には保護フィルムを貼ってください。  
 
 ## おまけ
-寸法とダンボールで作れるペーパークラフトを用意したのでサイズ感の確認にご利用下さい。
+寸法です。ダンボールで作れるペーパークラフトもあります。
 ![](img/size.png)　　
 ![](img/danbo.jpg)　　
 - [realsizeA4.pdf]()  
