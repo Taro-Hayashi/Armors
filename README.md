@@ -156,7 +156,7 @@ USBケーブルを抜いてプレートを組付けます。
   
 JSONファイルをダウンロードしたらChromeかEdgeでRemapにアクセスしてください。  
 - [armors.json](https://github.com/Taro-Hayashi/Armors/releases/download/1.0/armors.json)
-- [Remap](https://remap-keys.app/)
+- Remap https://remap-keys.app/
   
 ![](img/remap1.png)  
 左を選んで進んでいくとJSONファイルを求められるのでダウンロードしたものを指定します。  
