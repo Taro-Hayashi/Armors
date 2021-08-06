@@ -155,12 +155,10 @@ USBケーブルを抜いてプレートを組付けます。
 使わないキーを削除したり使用頻度の高いキーを押しやすい位置に変更してみましょう。  
   
 JSONファイルをダウンロードしたらChromeかEdgeでRemapにアクセスしてください。  
-- [armors.json](https://github.com/Taro-Hayashi/Armors/releases/download/1.0/armors.json)
 - Remap https://remap-keys.app/
   
 ![](img/remap1.png)  
-左を選んで進んでいくとJSONファイルを求められるのでダウンロードしたものを指定します。  
-![](img/remap2.png)   
+左を選んで進んでいくとアドレスバーからメッセージが出てキーボードを選択できます。  
   
 変更が終わったら右上のflashボタンを押すと反映されます。  
 ![](img/remap3.png)  
@@ -185,6 +183,8 @@ A4サイズです。定規があればプリントしなくても作れます。
 
 ファームウェアのフォルダ  
 https://github.com/Taro-Hayashi/qmk_firmware/tree/master/keyboards/armors  
+  
+VIA用JSONファイル [armors.json](https://github.com/Taro-Hayashi/Armors/releases/download/1.0/armors.json)  
   
 ミドル、ボトムプレートのデザインデータ  
 [armors_plates.zip](https://github.com/Taro-Hayashi/Armors/releases/download/1.0/armors_plates.zip)  
