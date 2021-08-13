@@ -26,11 +26,9 @@
 |部品名|数|||
 |-|-|-|-|
 |Pro Micro コンスルー付き|1|はんだ済みを購入する場合、実装面上を選択してください。|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/promicro-spring-pinheader)|
-|キースイッチ|17|Kailh Choc V2|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-switches/products/kailh-choc-v2) |
-|キーキャップ|17|CherryMX互換・1U||
+|キースイッチ|17|Kailh Choc V1/V2|[遊舎工房様販売ページ](https://shop.yushakobo.jp/collections/all-switches/products/kailh-choc-v2) |
+|キーキャップ|17|スイッチに対応したもの・1U||
 |Micro USB ケーブル|1|データ通信対応でUSB2.0 Micro-Bのもの。|
-
-※Kailh choc V1も使えますがキーキャップにご注意ください。
 
 ## オプション
 |部品名|数|||
