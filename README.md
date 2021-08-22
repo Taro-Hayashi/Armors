@@ -134,7 +134,7 @@ USBケーブルを抜いてプレートを組付けます。
 - [armors_via.hex](https://github.com/Taro-Hayashi/Armors/releases/download/1.0/armors_via.hex)
 
 ゴム足を貼ったら完成です。  
-![](img/rubber.jpeg)  
+![](img/rubber.jpg)  
 ![](img/done.jpeg)  
 
 ## キーマップの確認、変更方法
