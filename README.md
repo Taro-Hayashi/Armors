@@ -103,7 +103,7 @@
 Pro Microに動作ソフト（ファームウェア）を書き込んで動作確認をしましょう。  
 キットとPCをUSBケーブルでつないでください。   
 
-ファームウェアをダウンロードしてPro Micro Web Updaterにアクセスしてください。
+ファームウェアをダウンロードして、ChromeかEdgeでPro Micro Web Updaterにアクセスしてください。
 - テスト用ファームウェア [armors_test.hex](https://github.com/Taro-Hayashi/Armors/releases/download/1.0/armors_test.hex)
 - Pro Micro Web Updater https://sekigon-gonnoc.github.io/promicro-web-updater/index.html
 
