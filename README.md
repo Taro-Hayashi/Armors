@@ -82,9 +82,9 @@
 ![](img/diode3.jpg)  
 
 リセットスイッチを裏から差し込み表ではんだ付けします。  
-![](img/reset1.png)  
+![](img/reset1.jpg)  
 フラックスクリーナーを使う場合はここで表面をきれいにしましょう。
-![](img/reset2.png)  
+![](img/reset2.jpg)  
 キースイッチを表から差し込み裏ではんだ付けします。  
 ![](img/keyswitch.jpg)  
 
