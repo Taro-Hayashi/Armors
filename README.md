@@ -180,7 +180,7 @@ VIA用JSONファイル [armors.json](https://github.com/Taro-Hayashi/Armors/rele
 [armors_plates.zip](https://github.com/Taro-Hayashi/Armors/releases/download/1.0/armors_plates.zip)  
 発注先のルールに沿ってデータを修正してください。  
   
-ご不明な点があればBOOTHのメッセージかtwitterのリプライでいつでも聞いてください。  
+ご不明な点があればBOOTHのメッセージやtwitterでいつでも聞いてください。  
 販売ページ: https://tarohayashi.booth.pm/items/3154455
   
 foostan様のフットプリントを流用、改変して使わせていただきました。  
