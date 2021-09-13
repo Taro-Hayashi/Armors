@@ -37,7 +37,7 @@
 |WS2812B|3|無くてもバックライトだけ光ります。|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/a0800ws-01-10)|
 |1N4148W|17|表面実装タイプのダイオード|[遊舎工房様販売ページ](https://shop.yushakobo.jp/products/a0800di-02-100)|
 |両面テープ||ねじの頭の0.5㎜より厚いものがおすすめです。||
- 
+
 ## 必要な工具
 |工具名| |
 |-|-|
@@ -68,32 +68,32 @@
 はんだ付けのやり方は動画で見るとわかりやすいです。  
 パーツは思ったより壊れないので落ち着いて作業すると失敗しにくいです。  
  - ホームセンターのDCMさんの解説動画(58秒～) https://www.youtube.com/watch?v=JFQg_ObITYE&t=58s
-  
+
 それではダイオードをD1からD17まで取り付けます。  
 足を曲げて裏から差し込みます。  
 ![](img/diode4.jpg)  
 ダイオードには向きがあります。三角形の先の棒と黒線を合わせましょう。  
-  
+
 表で更に足を曲げて抜けないようにします。  
 ![](img/diode5.jpg)  
 ダイオードと並行に曲げるとあとでキースイッチに干渉しにくいです。  
-  
+
 はんだ付けをして足を切ります。  
 ![](img/diode6.jpg)  
-  
+
 リセットスイッチを裏から差し込み表ではんだ付けします。  
 ![](img/reset3.jpg)  
 フラックスクリーナーを使う場合はここで表面をきれいにしましょう。
 ![](img/reset2.jpg)  
-  
+
 キースイッチを表から差し込み裏ではんだ付けします。  
 ![](img/keyswitch.jpg)  
-  
+
 メインボードの裏にコンスルーを挿します。  
 コンスルーの窓が高くて両方とも同じ向きになるように設置します。  
 ![](img/promicro4.jpg)   
 挿すだけではんだ付けはしません。  
-  
+
 コンスルーにPro Microを挿します。TX0, RAW, USBの位置をシルク印刷と合わせましょう。  
 ![](img/promicro5.jpg)   
 そして、Pro Micro側のコンスルーの足を半田付けします。  
@@ -104,7 +104,7 @@ Pro Microに動作ソフト（ファームウェア）を書き込んで動作�
 キットとPCをUSBケーブルでつないでください。   
 
 ファームウェアをダウンロードして、ChromeかEdgeでPro Micro Web Updaterにアクセスしてください。
-- テスト用ファームウェア [armors_test.hex](https://github.com/Taro-Hayashi/Armors/releases/download/14.6/armors_test.hex)
+- テスト用ファームウェア [armors_test.hex](https://github.com/Taro-Hayashi/Armors/releases/download/14.15/armors_test.hex)
 - Pro Micro Web Updater https://sekigon-gonnoc.github.io/promicro-web-updater/index.html
 
 ファイルの選択ボタンを押してダウンロードしたファームウェアを指定したら、flashボタンを押しましょう。  
@@ -125,16 +125,16 @@ Pro Microに動作ソフト（ファームウェア）を書き込んで動作�
 ## 組み立て方（後半）
 USBケーブルを抜いてプレートを組付けます。  
 アクリルからは保護フィルムを剥がしてください。割れやすいので気をつけましょう。  
-  
+
 メインボード裏面の赤丸の箇所にスペーサー（短）をネジ（短）で取り付けてミドルプレート（透明・中）を嵌めます。
 ![](img/bottom4.jpg)  
 ボトムプレート（黒・中）をネジ（短）で止めます。  
-  
+
 メインボードの残ったネジ穴にスペーサー（長）をネジ（長）で取り付け、ボトムプレート（透明・小）をネジ（長）で止めます。  
 ![](img/bottom5.jpg)   
 
 キーキャップを取り付けたら本番用のファームウェアに更新しましょう。
-- [armors_via.hex](https://github.com/Taro-Hayashi/Armors/releases/download/14.6/armors_via.hex)
+- [armors_via.hex](https://github.com/Taro-Hayashi/Armors/releases/download/14.15/armors_via.hex)
 
 ゴム足を貼ったら完成です。  
 ![](img/rubber.jpg)  
@@ -146,16 +146,16 @@ USBケーブルを抜いてプレートを組付けます。
 [Keyboard Layout Editor で見る](http://www.keyboard-layout-editor.com/#/gists/2c37559177f8a87ce5277c5e55365e61)  
 
 使わないキーを削除したり使用頻度の高いキーを押しやすい位置に変更してみましょう。  
-  
+
 ChromeかEdgeでRemapにアクセスしてください。  
 - Remap https://remap-keys.app/
-  
+
 ![](img/remap1.png)  
 左を選んで進んでいくとアドレスバーからメッセージが出てキーボードを選択できます。  
-  
+
 キーマップをドラッグアンドドロップで変更し右上のflashボタンを押すと反映されます。
 ![](img/remap3.png)  
-  
+
 ## 液晶タブレットに乗せる場合
 1番上の行を引っ掛ける事で液タブに乗せる事ができます。
 ![](img/tab.jpeg)　　
@@ -172,16 +172,16 @@ A4サイズです。定規があればプリントしなくても作れます。
 
 ファームウェアのフォルダ  
 https://github.com/Taro-Hayashi/qmk_firmware/tree/master/keyboards/armors  
-  
+
 VIA用JSONファイル [armors.json](https://github.com/Taro-Hayashi/Armors/releases/download/1.0/armors.json)  
-  
+
 ミドル、ボトムプレートのデザインデータ  
 [armors_plates.zip](https://github.com/Taro-Hayashi/Armors/releases/download/1.0/armors_plates.zip)  
 発注先のルールに沿ってデータを修正してください。  
-  
+
 ご不明な点があればBOOTHのメッセージやtwitterでいつでも聞いてください。  
 販売ページ: https://tarohayashi.booth.pm/items/3154455
-  
+
 foostan様のフットプリントを流用、改変して使わせていただきました。  
 https://github.com/foostan/kbd/  
 https://github.com/foostan/kbd/blob/master/LICENSE  
