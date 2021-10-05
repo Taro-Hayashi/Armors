@@ -180,8 +180,9 @@ VIA用JSONファイル [armors.json](https://github.com/Taro-Hayashi/Armors/rele
 発注先のルールに沿ってデータを修正してください。  
 
 ご不明な点があればBOOTHのメッセージやtwitterでいつでも聞いてください。  
-販売ページ: https://tarohayashi.booth.pm/items/3154455
 
 foostan様のフットプリントを流用、改変して使わせていただきました。  
 https://github.com/foostan/kbd/  
 https://github.com/foostan/kbd/blob/master/LICENSE  
+
+- BOOTH: https://tarohayashi.booth.pm/items/3154455
