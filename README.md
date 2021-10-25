@@ -103,24 +103,22 @@
 Pro Microに動作ソフト（ファームウェア）を書き込んで動作確認をしましょう。  
 キットとPCをUSBケーブルでつないでください。   
 
-ファームウェアをダウンロードして、ChromeかEdgeでPro Micro Web Updaterにアクセスしてください。
-- テスト用ファームウェア [armors_test.hex](https://github.com/Taro-Hayashi/Armors/releases/download/14.20/armors_test.hex)
-- Pro Micro Web Updater https://sekigon-gonnoc.github.io/promicro-web-updater/index.html
+下のwebサイトにアクセスしてください。
+- https://remap-keys.app/catalog/dTmFWd6gilf5ziDWE1TR/firmware
 
-ファイルの選択ボタンを押してダウンロードしたファームウェアを指定したら、flashボタンを押しましょう。  
-![](img/promicrowebupdater1.jpg)  
+テストファームウェアを選んでFLASHします。
+![](img/remap02.jpg)  
+![](img/remap03.jpg)  
 
-ブラウザのアドレスバーからメッセージが出てきたら、キットのリセットスイッチを押します。  
-すると選択欄にArduino Microが出てきてクリックできるようになります。  
-![](img/promicrowebupdater2.jpg)  
+キットのリセットスイッチを押すとArduino Microが現れるので、クリックして接続します。
+![](img/remap04.jpg) 
 
-選択して接続を押すと書き込みが終わります。  
-![](img/promicrowebupdater3.jpg)  
-ファームウェアを更新する時もこの手順で行います。    
+書き込みが完了したらウィンドウを閉じて大丈夫です。
+![](img/remap05.jpg) 
 
-タイプすると1-17の数字が打てるはずです。   
-
+アドレスバーやテキストエディタを使ってすべてのスイッチが反応することを確かめてください。  
 お疲れ様でした。問題がなければはんだ付けは終了です。
+
 
 ## 組み立て方（後半）
 USBケーブルを抜いてプレートを組付けます。  
@@ -133,8 +131,9 @@ USBケーブルを抜いてプレートを組付けます。
 メインボードの残ったネジ穴にスペーサー（長）をネジ（長）で取り付け、ボトムプレート（透明・小）をネジ（長）で止めます。  
 ![](img/bottom5.jpg)   
 
-キーキャップを取り付けたら本番用のファームウェアに更新しましょう。
-- [armors_via.hex](https://github.com/Taro-Hayashi/Armors/releases/download/14.20/armors_via.hex)
+キーキャップを取り付けたら先ほどと同様の手順で本番用のファームウェアに更新しましょう。
+- https://remap-keys.app/catalog/dTmFWd6gilf5ziDWE1TR/firmware
+![](img/remap06.jpg)  
 
 ゴム足を貼ったら完成です。  
 ![](img/rubber.jpg)  
