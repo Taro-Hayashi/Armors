@@ -171,7 +171,7 @@ ChromeかEdgeでRemapにアクセスしてください。
 A4サイズです。定規があればプリントしなくても作れます。
 
 ファームウェアのフォルダ  
-https://github.com/Taro-Hayashi/qmk_firmware/tree/master/keyboards/tarohayashi/armors  
+https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/armors  
 
 VIA用JSONファイル [armors.json](https://github.com/Taro-Hayashi/Armors/releases/download/14.15/armors.json)  
 
