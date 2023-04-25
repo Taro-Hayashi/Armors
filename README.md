@@ -4,6 +4,7 @@
 - [動作テスト](#動作テスト)
 - [組み立て方（後半）](#組み立て方後半)
 - [カスタマイズ](#カスタマイズ)
+- [その他](#その他)
 
 ## キット内容
 ![パーツ一覧](img/IMG_3761.jpg)  
@@ -34,7 +35,7 @@
 |部品名|数||
 |-|-|-|
 |[SK6812MINI-E](https://shop.yushakobo.jp/products/sk6812mini-e-10)|17|バックライト|
-|[WS2812B](https://shop.yushakobo.jp/products/a0800ws-01-10)|5|アンダーグロー|
+|[WS2812B](https://shop.yushakobo.jp/products/a0800ws-01-10)|3|アンダーグロー|
 
 ### 必要な工具
 |工具名|
@@ -139,6 +140,7 @@ ChromeかEdgeでRemapにアクセスしてください。
 ゴム足を外して両面テープで固定すると安定します。  
 跡が残るといけないので画面には保護フィルムを貼ってください。  
 
+## その他
 ファームウェアのフォルダ  
 https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/armors  
 
