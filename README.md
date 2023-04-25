@@ -25,7 +25,7 @@
 ### キット以外に必要なもの
 |部品名|数||
 |-|-|-|
-|Pro Micro|1||
+|[Pro Micro](https://shop.yushakobo.jp/products/pro-micro)|1||
 |キースイッチ|17|[Kailh choc V1](https://shop.yushakobo.jp/collections/all-switches/products/pg1350)、もしくは[Kailh Choc V2](https://shop.yushakobo.jp/collections/all-switches/products/kailh-choc-v2)|
 |キーキャップ|17|V1は[専用キーキャップ](https://shop.yushakobo.jp/collections/keycaps/For-Choc-v1)、V2は[CherryMX互換](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97)です。|
 |Micro-USB ケーブル|1||
