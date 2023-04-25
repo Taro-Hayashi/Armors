@@ -22,49 +22,31 @@
 |10|リセットスイッチ|1||
 |11|ゴム足|4||
 
-## キット以外に必要なもの
+### キット以外に必要なもの
 |部品名|数||
 |-|-|-|
-|Pro Micro|1|[遊舎工房](https://shop.yushakobo.jp/products/pro-micro) / [TALPKEYBOARD](https://talpkeyboard.net/items/5b24504ba6e6ee7ec60063e3) / [DailyCraftKeyboardコンスルー付き](https://shop.dailycraft.jp/products/promicro_with_conthrou)|
-|コンスルー12ピン (高さ2mmか2.5mm)|2|[遊舎工房](https://shop.yushakobo.jp/products/31?_pos=1&_sid=ca92edae3&_ss=r&variant=37665714372769) / [TALPKEYBOARD](https://talpkeyboard.net/items/5e056626d790db16e2889233) / [DailyCraftKeyboard](https://shop.dailycraft.jp/products/conthrough)|
+|Pro Micro|1||
 |キースイッチ|17|[Kailh choc V1](https://shop.yushakobo.jp/collections/all-switches/products/pg1350)、もしくは[Kailh Choc V2](https://shop.yushakobo.jp/collections/all-switches/products/kailh-choc-v2)|
 |キーキャップ|17|V1は[専用キーキャップ](https://shop.yushakobo.jp/collections/keycaps/For-Choc-v1)、V2は[CherryMX互換](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97)です。|
-|Micro USB ケーブル|1||
+|Micro-USB ケーブル|1||
+ - [Pro Micro互換品とコンスルーの対応表](promicro.md)  
 
-
-## LED（[取り付け方](led.md)）
+### LED（[取り付け方](led.md)）
 |部品名|数|||
 |-|-|-|-|
 |SK6812MINI-E|17|バックライト|[遊舎工房](https://shop.yushakobo.jp/products/sk6812mini-e-10) / [秋月電子通商](https://akizukidenshi.com/catalog/g/gI-15478/)|
 |WS2812B|5|アンダーグロー|[遊舎工房](https://shop.yushakobo.jp/products/a0800ws-01-10) / [秋月電子通商](https://akizukidenshi.com/catalog/g/gI-07915/)|
 
-## 必要な工具
+### 必要な工具
 |工具名|
 |-|
 |はんだごて|
-|こて先クリーナー（こて台）|
-|鉛入りはんだ|
+|はんだ|
 |精密ドライバー|
 |ニッパー等ダイオードの足を切れるもの|
-|Microsoft Edge、もしくはGoogle Chrome|
-
-## あると便利な工具
-|工具名|
-|-|
-|耐熱シリコンマット|
-|温度調節可能なはんだごて|
-|斜めに切ったタイプのこて先|
-|フラックス|
-|フラックスリムーバー、IPA|
-|ピンセット|
-|マスキングテープ|
-|テスター|
-|はんだ吸い取り線|
-|はんだ吸い取り器|
+|エポシキ接着剤|
 
 ## 組み立て方（はんだ付け）
-正しくはんだ付けが終わるとこのようになります。
-![](img/full2.jpg)  
 
 はんだ付けのやり方は動画で見るとわかりやすいです。  
 パーツは思ったより壊れないので落ち着いて作業すると失敗しにくいです。  
