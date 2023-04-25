@@ -17,7 +17,7 @@
 |5|ネジ（短）|12|3mm|
 |6|ネジ（長）|8|5mm|
 |7|スペーサー（短）|6|3mm|
-|8|スペーサー（長）|4|8mm|
+|8|スペーサー（長）|4|9mm|
 |9|ダイオード|17||
 |10|リセットスイッチ|1||
 |11|ゴム足|4||
@@ -143,14 +143,6 @@ ChromeかEdgeでRemapにアクセスしてください。
 ![](img/tab.jpeg)　　
 ゴム足を外して両面テープで固定すると安定します。  
 跡が残るといけないので画面には保護フィルムを貼ってください。  
-
-## おまけ
-寸法です。ダンボールで作れるペーパークラフトもあります。
-![](img/size.png)　　
-![](img/danbo.jpg)　　
-- [realsizeA4.pdf](https://github.com/Taro-Hayashi/Armors/releases/download/14.15/realsizeA4.pdf)  
-
-A4サイズです。定規があればプリントしなくても作れます。
 
 ファームウェアのフォルダ  
 https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/armors  
