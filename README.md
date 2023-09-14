@@ -144,8 +144,6 @@ ChromeかEdgeでRemapにアクセスしてください。
 ファームウェアのフォルダ  
 https://github.com/Taro-Hayashi/qmk_firmware/tree/tarohayashi/keyboards/tarohayashi/archive/armors  
 
-VIA用JSONファイル [armors.json](https://github.com/Taro-Hayashi/Armors/releases/latest/download/14.15/armors.json)  
-
 ミドル、ボトムプレートのデザインデータ  
 [armors_plates.zip](https://github.com/Taro-Hayashi/Armors/releases/latest/download//armors_plates.zip)  
 発注先のルールに沿ってデータを修正してください。  
